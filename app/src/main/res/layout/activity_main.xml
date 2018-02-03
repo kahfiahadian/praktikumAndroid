@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.telkomuniversity.student.kahfiahadian.studycase11202154215.MainActivity">
+
+    <EditText
+        android:id="@+id/editText_makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_jumlah"
+        android:layout_alignLeft="@+id/editText_jumlah"
+        android:layout_alignStart="@+id/editText_jumlah"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="@string/masukan_nama_makanan"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="72dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_eatbus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:ems="10"
+        android:hint="@string/masukan_jumlah_makanan"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Button
+        android:id="@+id/button_eatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_apnormal"
+        android:layout_alignBottom="@+id/button_apnormal"
+        android:layout_alignLeft="@+id/editText_jumlah"
+        android:layout_alignStart="@+id/editText_jumlah"
+        android:text="EATBUS"
+        android:onClick="launchEatbus"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/button_apnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_jumlah"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText_jumlah"
+        android:layout_marginBottom="170dp"
+        android:text="APNORMAL"
+        android:onClick="launchApnormal"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textSize="50px"
+        android:text="MAKAN APA HARI INI?" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="UNTUK ORANG YANG TIDAK PERCAYA DIRI" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Akhir Bulan Apps</string>
+    <string name="masukan_nama_makanan">Masukan nama makanan</string>
+    <string name="masukan_jumlah_makanan">Masukan jumlah makanan</string>
+</resources>

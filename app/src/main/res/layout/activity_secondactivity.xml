@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.telkomuniversity.student.kahfiahadian.studycase11202154215.secondactivity">
+
+    <TextView
+        android:id="@+id/textView_tagResto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="37px"
+        android:layout_marginTop="51dp"
+        android:text="Nama Restaurant" />
+
+    <TextView
+        android:id="@+id/textView_resto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_menu"
+        android:layout_alignStart="@+id/textView_menu"
+        android:layout_below="@+id/textView_tagResto"
+        android:textSize="27px"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textView_tagMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_tagResto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textSize="37px"
+        android:text="Nama Menu" />
+
+    <TextView
+        android:id="@+id/textView_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_tagMenu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:textSize="27px"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/textView_tagPorsi"
+        android:textSize="37px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_menu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Porsi" />
+
+    <TextView
+        android:id="@+id/textView_porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_tagPorsi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="27px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/textView_tagHarga"
+        android:layout_width="wrap_content"
+        android:textSize="37px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_porsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Harga" />
+
+    <TextView
+        android:id="@+id/textView_harga"
+        android:textSize="27px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_tagHarga"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/textView_porsi"
+        android:layout_toRightOf="@+id/textView_porsi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>
